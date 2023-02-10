@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    font-family: 'Poppins';
+    box-shadow: 3px -5px 12px -5px rgba(0,0,0,0.51);
+    width: 380px;
+    height: 100vh;
+}
+
+.superCart{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+
+nav {
+    height: 104%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    background: #fff;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    line-height: 24px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+nav > p {
+
+    font-size: 10px;
+}
+
+nav section, .productHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kedai, .ubah{
+    display: flex;
+    align-items: center;
+}
+
+.kedai p, .ubah p {
+    margin: 0 5px;
+}
+
+.kedai p {
+    font-weight: 700;
+}
+
+.ubah, .productHead p{
+    color: cornflowerblue;
+    font-weight: 700;
+
+}
+
+.ubah p {
+    font-size: 10px;
+    color: cornflowerblue;
+
+}
+
+nav input{
+    margin: 5px 0;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: lightgrey;
+    border: none;
+    font-size: 10px;
+}
+
+.input_container { 
+    position:relative; 
+    }
+
+.fa-search {
+    position:absolute; 
+    bottom:16px; 
+    left:320px; 
+    width:10px; 
+    height:10px; 
+    border: none;
+    color: grey;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+}
+
+.voucher, .point {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.forAccount{
+    font-weight: 700;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.fa-fax, .fa-star {
+    color: cornflowerblue;
+}
+
+.voucher > section, .point > section, .productHead {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.voucher > section p, .point > section p {
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+.newInfo, .productHead  {
+    padding: 15px 0 5px 15px;;
+    font-size: 10px;
+}
+
+.newInfo h3{
+    padding: 5px 0 5px 0;
+}
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 350px;
+  position: relative;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  margin: 10px 5px 0 15px;
+  height: 200px;
+  width: 325px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+
+.Fiture img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5%;
+    margin: 15px 15px 2px 15px;
+    position: relative;
+
+    
+}
+
+.Fiture p {
+    font-size: 10px;
+    display: flex;
+    margin-left: 20px;
+    width: 50px;
+} 
+
+.productHead {
+    margin-top: 2%;
+}
+
+.productHead p{
+    padding: 10px;
+}
+
+.productPil{
+    padding: 0 15px 15px 15px;
+    font-size: 10px;
+}
+
+.cards-list {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 0;
+    margin-bottom: 7%;
+}
+
+.AllProduct{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.14);
+}
+
+.AllProduct .card{
+    flex-direction: row; 
+    gap: 20px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.card {
+    width: 100px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+    margin-left: 15px;
+    position: relative;
+}
+
+.card--image {
+    width: 100px;
+    height: 100px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    object-fit: cover;
+  object-position: center;
+}
+
+ 
+.cards-list section div, .cards-list section > button, 
+.AllProduct section div{
+display: flex;  
+width: 100px;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-top: 10%;
+}
+
+
+.cards-list section > button, 
+.AllProduct .card section > button{
+   font-weight: 700;
+   width: 100px;
+  height: 25px;
+  border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: cornflowerblue;
+}
+
+.cards-list section div button, 
+.AllProduct section div > button {
+    border-radius: 5px;
+   width: 25px;
+   height: 25px;
+   
+   font-weight: 700;
+   border: none;
+   color: white;
+   background-color: cornflowerblue;
+}
+
+
+.AllProduct .card section > button{
+position: absolute;
+left: 16rem;
+}
+
+.cards-list section button:hover{
+    cursor: pointer;
+}
+
+/* ADD */
+
+.Footer{
+    width: 380px;
+    height: 60px;
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    border-top: 1px solid gray;
+    background: #fff;
+    box-shadow: 7.4564px 0px 2.98256px  rgba(0.2, 0.2, 0, 0);
+    position: fixed;
+    top: 80vh;
+    z-index: 1;
+
+}
+
+.Footer div{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer div p {
+    font-size: 10px;
+    padding: 5px;
+}
+
+p {
+    font-weight: 600;
+    color: #262626
+}
+
+.location section{
+    height: 60vh;
+}
+
+.goBack{
+    display: flex;
+    margin: 12px 0 4px 0;
+}
+
+.fa-arrow-left{
+    padding-right: 12px;
+    font-size: 14px;
+}
+
+.location section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.location section > div {
+    width: 320px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.14);
+}
+
+.location section > div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-award{
+    color: cornflowerblue;
+    margin: 0 8px;
+}
+
+.location section div p{
+    font-size: 10px;
+    padding: 8px 0;
+    color: gray;
+    font-weight: 300;
+}
+
+.makeAccount > div {
+    margin: 16px 4px;
+    text-align: center;
+    height: 65vh;
+}
+
+.makeAccount > div .fa-user-circle{
+    font-size: 100px;
+} 
+
+.makeAccount > div h3{
+    margin: 12px
+}
+
+.makeAccount > div p{
+   font-size: 10px;
+   padding: 8px 8px 28px 8px;
+}
+
+.makeAccount section h6{
+    text-align: center;
+    color: #262626;
+    font-weight: 300;
+}
+
+
+.sign-in-google, .sign-in-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    margin: 8px 20px;;
+}
+
+
+.sign-in-google{
+    background-color: cornflowerblue;   
+}
+
+.sign-in-email{
+    background-color: #262626;
+}
+
+.sign-in-google img{
+    width: 20px;
+    padding-right: 8px;
+}
+
+.sign-in-email i, .fa-info-circle{
+    font-size: 12px;
+    padding-right: 16px;
+}
+
+
+.help > div{
+    height: 70vh;
+    text-align: center;
+}
+
+.help > div h3{
+    background-color: cornflowerblue;
+    padding: 20px;
+    color: #262626
+}
+
+.help > div h6{
+  margin: 16px 0;
+}
+  
+.help > div section{
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    color: gray;
+}
+
+.help > div section h6{
+    text-align: left;
+}
+
