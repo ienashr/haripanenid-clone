@@ -1,4 +1,4 @@
-#My firts React.js project
+# My firts React.js project
 
 I build a user interface clone from e-commerce project by KodingWorks using React JS
 
