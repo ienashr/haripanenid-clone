@@ -1,3 +1,8 @@
+#My firts React.js project
+
+I build a user interface clone from e-commerce project by KodingWorks using React JS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
