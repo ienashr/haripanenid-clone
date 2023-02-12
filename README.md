@@ -1,6 +1,6 @@
 # My firts React.js project
 
-I build a user interface clone from e-commerce project by KodingWorks using React JS
+I build a user interface clone from e-commerce project by KodingWorks using React JS. For Navigation React Router Dom was used.
 
 
 # Getting Started with Create React App
